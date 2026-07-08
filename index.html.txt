@@ -1,0 +1,376 @@
+{
+  "project_name": "Oral Clines - Website Institucional",
+  "objective": "Site institucional de alta performance com confiança técnica, modernidade e humanidade",
+  "target_audience": "10-40 anos | Público urbano que busca qualidade e confiança",
+  
+  "branding": {
+    "brand_personality": "Técnico + Humanizado + Moderno + Minimalista",
+    "primary_colors": {
+      "navy": "#1B3A5C",
+      "gold_accent": "#D4AF37",
+      "warm_gray": "#F5F5F5",
+      "text_dark": "#2C3E50"
+    },
+    "secondary_colors": {
+      "light_gray": "#E8E8E8",
+      "border_subtle": "#D9D9D9",
+      "success_green": "#27AE60"
+    },
+    "typography": {
+      "headings": {
+        "font": "Lora",
+        "weight": "700",
+        "style": "Serif elegante, sofisticado",
+        "sizes": {
+          "h1": "3.5rem",
+          "h2": "2.5rem",
+          "h3": "1.75rem"
+        }
+      },
+      "subheadings_accents": {
+        "font": "Playfair Display",
+        "weight": "400|600",
+        "style": "Display serif, luxuoso mas acessível",
+        "usage": "Subtítulos em itálico, destacamentos"
+      },
+      "body_text": {
+        "font": "Source Sans Pro",
+        "weight": "400|500",
+        "size": "1rem",
+        "line_height": "1.6",
+        "style": "Clean, legível, profissional"
+      },
+      "captions_small": {
+        "font": "IBM Plex Mono",
+        "weight": "400",
+        "size": "0.875rem",
+        "style": "Monoespaciada moderna para labels, CRO, horários"
+      }
+    },
+    "tone_of_voice": "Profissional com empatia | Confiante mas acessível | Educativo sem ser pedante"
+  },
+
+  "layout_structure": {
+    "sections": [
+      {
+        "name": "Header/Navegação",
+        "type": "Fixed sticky",
+        "height": "80px",
+        "background": "Branco com sombra sutil",
+        "elements": {
+          "logo": "Oral Clines (Navy + Gold dot)",
+          "nav_items": ["Tratamentos", "Equipe", "Diferenciais", "Unidades", "Contato"],
+          "cta_button": "AGENDAR AVALIAÇÃO (Navy, bold)"
+        },
+        "behavior": "Sticky no scroll | Transição suave de sombra"
+      },
+      {
+        "name": "Hero Section",
+        "type": "Full-width image com overlay",
+        "background": "Imagem das clínicas OU ambiente profissional + overlay Navy 20%",
+        "height": "80vh",
+        "content": {
+          "main_headline": "Saúde oral com confiança técnica e humanidade",
+          "subheadline": "Implantodontia, Ortodontia, Estética e Harmonização Orofacial — 23 anos de excelência",
+          "cta": "Agende sua Avaliação"
+        },
+        "animation": "Subtle fade-in on load"
+      },
+      {
+        "name": "Tratamentos",
+        "type": "Grid 3 colunas",
+        "background": "Branco",
+        "spacing": "Padding 80px vertical",
+        "cards": {
+          "count": 6,
+          "layout": "3 cols desktop | 1 col mobile",
+          "title": "Implantodontia | Ortodontia | Estética Dental | Cirurgia Oral | Harmonização Orofacial | Odontopediatria",
+          "description": "Breve descrição + ícone minimalista",
+          "style": "Border sutil (cinza) | Sombra ao hover | Padding 30px"
+        }
+      },
+      {
+        "name": "Sobre a Equipe",
+        "type": "2 colunas (imagem + texto)",
+        "background": "Light gray (#F5F5F5)",
+        "height": "auto",
+        "layout": {
+          "image_side": "Foto dos Drs. David e Michelle em uniforme preto",
+          "text_side": {
+            "headline": "Experiência e Humanidade",
+            "content": "Credenciais (CRO) + Especialidades + Filosofia clínica",
+            "style": "Lora para headlines | Source Sans Pro para body"
+          }
+        },
+        "animation": "Imagem aparece ao scroll (fade-in lateral)"
+      },
+      {
+        "name": "Diferenciais",
+        "type": "Grid alternado (imagem + texto)",
+        "background": "Branco",
+        "items": [
+          "Técnica de Ponta",
+          "Atendimento Humanizado",
+          "Duas Unidades Estratégicas",
+          "Especialistas Renomados"
+        ],
+        "style": "Alternância esquerda-direita | Ícones ao lado"
+      },
+      {
+        "name": "Depoimentos",
+        "type": "Slider/Carrossel",
+        "background": "Navy (#1B3A5C) escuro",
+        "text_color": "Branco",
+        "slides": {
+          "count": "Min 3-5",
+          "content": "Citação + Nome + Procedimento",
+          "stars": "5 stars visual"
+        },
+        "animation": "Auto-rotate a cada 5s | Pausar no hover"
+      },
+      {
+        "name": "FAQ",
+        "type": "Accordion",
+        "background": "Light gray",
+        "questions_count": "8-10",
+        "style": {
+          "header": "Navy + Gold bullet | Cursor pointer",
+          "answer": "Fonte menor, cor cinza escuro",
+          "animation": "Smooth expand/collapse"
+        }
+      },
+      {
+        "name": "Unidades",
+        "type": "Dual cards (como atual, melhorado)",
+        "background": "Branco",
+        "cards": {
+          "count": 2,
+          "title": "Oral Clines Matriz | Oral Clines Filial",
+          "elements": ["Endereço", "WhatsApp", "Telefone", "Horário", "Como Chegar", "Botões CTA"],
+          "style": "Card com border sutil | Hover effect (sombra aumenta)"
+        }
+      },
+      {
+        "name": "Formulário de Contato",
+        "type": "Form + Mapa",
+        "background": "Navy escuro",
+        "layout": "50% form | 50% mapa (responsivo)",
+        "form_fields": ["Nome", "Email", "Telefone", "Serviço de Interesse", "Mensagem"],
+        "button": "Enviar (Gold background)"
+      },
+      {
+        "name": "Footer",
+        "type": "Dark footer",
+        "background": "Navy muito escuro (#0F1E2E)",
+        "elements": {
+          "logo": "Oral Clines branco",
+          "links": "Redes sociais + Links rápidos",
+          "contact_info": "Telefones + Horários + Email",
+          "copyright": "© 2026 Oral Clines"
+        }
+      }
+    ]
+  },
+
+  "visual_directives": {
+    "spacing_rhythm": {
+      "section_padding": "80px top/bottom (desktop) | 40px (mobile)",
+      "card_padding": "30px",
+      "gutters": "24px",
+      "line_height_headlines": "1.2",
+      "line_height_body": "1.6"
+    },
+    "borders_shadows": {
+      "card_border": "1px solid #D9D9D9",
+      "card_shadow_default": "0 2px 8px rgba(0,0,0,0.08)",
+      "card_shadow_hover": "0 8px 24px rgba(0,0,0,0.12)",
+      "divider": "1px solid #E8E8E8"
+    },
+    "hover_effects": {
+      "card_scale": "transform: translateY(-4px)",
+      "link_color": "Navy → Gold",
+      "button_background": "Subtle darkening (10%)",
+      "transition_duration": "300ms ease-in-out"
+    },
+    "image_treatment": {
+      "style": "Natural | Ligeiramente dessaturado | Bordas suaves",
+      "border_radius": "8px",
+      "aspect_ratios": {
+        "hero": "16:9",
+        "cards": "4:3 ou square",
+        "team": "1:1 (circular crop opcional)"
+      }
+    },
+    "buttons": {
+      "primary": {
+        "background": "#1B3A5C (Navy)",
+        "text": "Branco | Bold | ALL CAPS",
+        "padding": "14px 32px",
+        "border_radius": "4px",
+        "hover": "Darkening 10% + shadow"
+      },
+      "secondary": {
+        "background": "Transparent",
+        "border": "2px solid #1B3A5C",
+        "text": "Navy",
+        "padding": "12px 30px",
+        "hover": "Background Navy com transição"
+      },
+      "accent": {
+        "background": "#D4AF37 (Gold)",
+        "text": "Navy | Bold",
+        "hover": "Lightening 10%"
+      }
+    },
+    "animations": {
+      "page_load": "Fade-in suave (400ms)",
+      "scroll_triggers": "Fade-in + slide-up para elementos",
+      "hover_states": "Transform + shadow (300ms)",
+      "carrossel": "Smooth transition entre slides (600ms)",
+      "duration": "Evitar animações longas (max 600ms para não irritar)"
+    }
+  },
+
+  "ui_components": {
+    "navigation": {
+      "type": "Horizontal topbar",
+      "behavior": "Sticky on scroll",
+      "items": "Text links Navy | Spacing 24px between",
+      "active_state": "Gold underline (2px)",
+      "mobile": "Hamburger menu (collapse to 768px)"
+    },
+    "buttons": {
+      "types": ["Primary (Navy)", "Secondary (Outlined)", "Accent (Gold)"],
+      "sizes": ["Small: 12px 24px", "Medium: 14px 32px", "Large: 16px 40px"],
+      "states": ["Default", "Hover", "Active", "Disabled (opacity 50%)"]
+    },
+    "form_inputs": {
+      "style": "Minimalista",
+      "border": "1px solid #D9D9D9",
+      "focus": "Border Navy + shadow sutil",
+      "placeholder": "Cinza claro",
+      "border_radius": "4px",
+      "padding": "12px 16px",
+      "font": "Source Sans Pro | 1rem"
+    },
+    "cards": {
+      "styles": [
+        "Treatment cards: border + light bg",
+        "Unit cards: shadow + padding",
+        "Testimonial cards: Navy bg com texto branco",
+        "Testimonial stars: Gold color"
+      ]
+    },
+    "accordion": {
+      "header": "Navy background | Gold icon | Cursor pointer",
+      "transition": "Max-height 300ms ease",
+      "padding": "16px",
+      "border": "1px solid #D9D9D9"
+    },
+    "carrossel": {
+      "auto_play": "5 segundos",
+      "navigation": "Dots abaixo OU setas laterais",
+      "pause_on_hover": "Sim"
+    }
+  },
+
+  "technical_requirements": {
+    "responsiveness": {
+      "breakpoints": {
+        "mobile": "max-width: 640px",
+        "tablet": "641px - 1024px",
+        "desktop": "1025px+"
+      },
+      "priority": "Mobile-first approach",
+      "nav_behavior": "Hamburger em mobile | Horizontal em desktop"
+    },
+    "performance": {
+      "target_lighthouse": "90+",
+      "image_optimization": "WebP com fallback JPG",
+      "lazy_loading": "Images abaixo do fold",
+      "caching": "Browser cache 1 mês",
+      "minification": "CSS/JS minificados"
+    },
+    "accessibility": {
+      "wcag_level": "AA",
+      "alt_text": "Todas as imagens com descrição",
+      "color_contrast": "Min 4.5:1 para texto",
+      "focus_states": "Visível e acessível",
+      "semantic_html": "Use correto (h1, h2, section, article, etc)"
+    },
+    "seo": {
+      "meta_tags": "Title, Description, OG tags",
+      "structured_data": "Schema.org para Local Business",
+      "sitemap": "XML sitemap incluído",
+      "robots": "robots.txt configurado",
+      "canonical": "URLs canônicas"
+    },
+    "cross_browser": "Chrome, Firefox, Safari, Edge (últimas 2 versões)",
+    "integrations": {
+      "whatsapp_button": "Float no canto inferior direito",
+      "contact_form": "Envio via email",
+      "maps": "Google Maps embed para unidades",
+      "analytics": "Google Analytics 4"
+    },
+    "security": {
+      "https": "Obrigatório",
+      "form_validation": "Client-side + server-side",
+      "csrf_protection": "Implementado"
+    }
+  },
+
+  "design_specifications": {
+    "grid_system": "12 colunas | 24px gutter",
+    "max_width": "1200px container",
+    "font_sizes": {
+      "h1": "3.5rem / 2.5rem mobile",
+      "h2": "2.5rem / 1.75rem mobile",
+      "h3": "1.75rem / 1.25rem mobile",
+      "body": "1rem",
+      "small": "0.875rem"
+    },
+    "spacing_scale": "4px, 8px, 16px, 24px, 32px, 48px, 64px, 80px",
+    "border_radius": "4px (cards) | 50% (circles)"
+  },
+
+  "content_structure": {
+    "hero_copy": "Powerful headline + Supportive subheadline + CTA",
+    "treatment_cards": "Icon + Title + Description (max 50 words)",
+    "team_section": "Credenciais + Especialidades + Filosofia",
+    "testimonials": "Quote + Name + Procedure + 5 stars",
+    "faq": "10 perguntas comuns sobre serviços",
+    "unit_cards": "Endereço + Telefone + WhatsApp + Horário + Botões"
+  },
+
+  "color_application": {
+    "headings": "Navy (#1B3A5C)",
+    "body_text": "Dark gray (#2C3E50)",
+    "accents_highlights": "Gold (#D4AF37)",
+    "backgrounds_light": "White ou Light gray (#F5F5F5)",
+    "backgrounds_dark": "Navy ou Very dark navy (#0F1E2E)",
+    "borders_dividers": "Light gray (#D9D9D9)",
+    "success_messages": "Green (#27AE60)"
+  },
+
+  "brand_voice_guidelines": {
+    "tone": "Profissional, empático, educativo",
+    "style": "Formal com toque humanizado",
+    "avoid": "Jargão técnico sem explicação | Tons arrogantes",
+    "example_phrases": [
+      "Sua saúde bucal em mãos experientes",
+      "Técnica de ponta com coração humanizado",
+      "Mais de 23 anos transformando sorrisos"
+    ]
+  },
+
+  "deliverables": {
+    "format": "HTML5 + CSS3 (Grid/Flexbox) + JavaScript vanilla",
+    "files": [
+      "index.html (estrutura completa)",
+      "styles.css (design system integrado)",
+      "script.js (interatividade: accordion, carrossel, animações)",
+      "README.md (instruções de uso/edição)"
+    ],
+    "editability": "HTML com classes claras | CSS bem comentado | Fácil manutenção em Hostgator"
+  }
+}
